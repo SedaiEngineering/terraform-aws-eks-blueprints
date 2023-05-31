@@ -861,6 +861,18 @@ variable "argocd_manage_add_ons" {
   default     = false
 }
 
+#-----------SEDAI ADDON-------------
+variable "enable_sedai" {
+  description = "Enable Sedai Kubernetes add-on"
+  type        = bool
+  default     = false
+}
+
+variable "sedai_helm_config" {
+  description = "Sedai Kubernetes add-on config"
+  type        = any
+  default     = {}
+}
 #-----------AWS NODE TERMINATION HANDLER-------------
 variable "enable_aws_node_termination_handler" {
   description = "Enable AWS Node Termination Handler add-on"

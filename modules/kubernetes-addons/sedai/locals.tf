@@ -1,0 +1,16 @@
+locals {
+  name      = "sedai-smart-agent"
+  namespace = "sedai"
+  agentAccountId = "vqdl6zfv"
+  tenantName = "Piedpiper"
+  agentAccountName = "EKS-Demo"
+  agentClusterName = "EKS-Demo"
+  agentEncryptionKey = "kdecSkIK11YpBnBU1c7wGF35csovWFldFzw+IfpYNpY="
+  deploymentName = "sedai-smart-agent-vqdl6zfv"
+  serverAccessKey = "eyJhbGciOiJSUzI1NiJ9.eyIkaW50X3Blcm1zIjpbXSwic3ViIjoib3JnLnBhYzRqLmNvcmUucHJvZmlsZS5Db21tb25Qcm9maWxlI1NZU1RFTS1TbWFydC1BZ2VudC1mb3ItQWNjb3VudC12cWRsNnpmdiIsIiRpbnRfcm9sZXMiOlsiU2VkYWlBZ2VudCJdLCJleHAiOjU0MTgwMDc4MzIsImRpc3BsYXlfbmFtZSI6IlNZU1RFTS1TbWFydC1BZ2VudC1mb3ItQWNjb3VudC12cWRsNnpmdiIsImlhdCI6MTY4NTUyNzgzMiwiZmlyc3RfbmFtZSI6IlNZU1RFTS1TbWFydC1BZ2VudC1mb3ItQWNjb3VudC12cWRsNnpmdiJ9.aqn-WpsUTpKMCjE9EfLXsECSCQn-G7SFm1GRsMRhr0fGxMEaaXodjTXxpkzofjduj9pjNf_jD35oB2Q0ypoGscDRCui2ZJs-W_CG2_iHvCmB9KiRzqiZ1WxEDwexMi6PicBJhVFELGP569P46zK5Ofrqhm-AV59FPDtFCSNxeh5nzhmllVcPtnbCQp3JDY_nOapUpfHKCSHNaKxWn7LvQwoyKbXwz-5Ym8mXuQOWtcLU_85HTN94-1XzYGqIyoGrXgf3pnHYd0ooMe_8_epwspEi078yblXN0PnEns60KvVm57xrDMzBMbCuLZvVsxrcyoWKyq103ZAa-2RZOZqe_Q"
+  deploymentNameSpace = "sedai"
+  containerName = "sedai-smart-agent"
+  serverRestBaseUrl = "https://piedpiper.sedai.app/api"
+  serverWsBaseUrl = "wss://piedpiper.sedai.app/ws"
+  logFolder = "/var/log/sedai"
+}

@@ -121,6 +121,14 @@ module "argocd" {
   addon_context = local.addon_context
 }
 
+module "sedai" {
+  count         = var.enable_sedai ? 1 : 0
+  source        = "./sedai"
+  helm_config   = var.sedai_helm_config
+  addon_context = local.addon_context
+}
+
+
 module "argo_rollouts" {
   count             = var.enable_argo_rollouts ? 1 : 0
   source            = "./argo-rollouts"
